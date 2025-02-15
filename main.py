@@ -1,37 +1,33 @@
 import streamlit as st
-
+from Utils import Data
+from Components import component
 class WEBSITE: 
 
     def __init__(self):
         heading=st.container(border=True)
         heading.title("Visualezee",anchor="home")
-
-
-    def navigation(self,navlist):
+        heading.html("<p>Developed by: <a href='https://github.com/Abhiraj-Sardar'>Abhiraj Sardar</a></p>")
+        sidebar = {
+                   "Visualezee": [
+                    st.Page("main.py", title="Explore"),
+                    st.Page("./pages/Home.py", title="Home"),
+                    st.Page("./pages/Login.py", title="Login"),
+                    st.Page("./pages/SignUp.py", title="Sign Up"),
+                    ],
+                    "Data Based Manipulation":[
+                        st.Page("./pages/DataManipulator.py",title="DataManipulator"),
+                        # st.Page("SortData")
+                    ],
+                    "Text Based Manipulation":[]
+            }
         
-        cols = st.columns(len(navlist))
-        i=0
-        for col in cols:
-            col.button(navlist[i],icon="🎯",use_container_width=True)
-            i+=1
+        navlist=Data.nav_data
+        component.navigation(navlist)
 
-    
-    @st.dialog("Login Form")
-    def open_login_form(self,data):
-        pass
-    
-    def login(self):
+        web_app = st.navigation(sidebar)
+        web_app.run()
 
-
-        pass
-
-    def signup(self):
-        pass
         
-
-class HOME_PAGE:
-    pass
 
 if __name__=='__main__':
     w = WEBSITE()
-    w.navigation(["Home","Git","Login","SignUp"])
