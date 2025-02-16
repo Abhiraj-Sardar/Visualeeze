@@ -1,3 +1,3 @@
 import streamlit as st
 
-st.write("Sign Up")
+st.markdown("## SignUp Page Coming Soon")
