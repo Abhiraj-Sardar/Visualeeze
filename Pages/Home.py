@@ -24,10 +24,6 @@ Whether you're a **student, data analyst, or business professional**, our **Data
 
 st.markdown("""
 
-Here's a description for your **Text Manipulation Website**:  
-
----
-
 # **Text Manipulator – Simplify & Transform Your Text**  
 
 Need to modify, analyze, or format text effortlessly? Our **Text Manipulation Website** is a powerful tool designed to help you **edit, format, and enhance** text with ease.  

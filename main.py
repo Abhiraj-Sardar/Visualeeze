@@ -18,7 +18,9 @@ class WEBSITE:
                         st.Page("./pages/CSV_Data.py",title="CSV Data"),
                         st.Page("./pages/EXCEL_Data.py",title="Excel Data")
                     ],
-                    "Text Based Manipulation":[]
+                    "Text Based Manipulation":[
+                        st.Page("./pages/TextManipulator.py",title="Text Insights"),
+                    ]
             }
         
         navlist=Data.nav_data
