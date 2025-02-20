@@ -10,16 +10,19 @@ class WEBSITE:
         sidebar = {
                    "Visualezee": [
                     # st.Page("main.py", title="Explore"),
-                    st.Page("./pages/Home.py", title="Home"),
-                    st.Page("./pages/Login.py", title="Login"),
-                    st.Page("./pages/SignUp.py", title="Sign Up"),
+                    st.Page("./pages/Home.py", title="🏠 Home"),
+                    st.Page("./pages/Login.py", title="🗝️ Login"),
+                    st.Page("./pages/SignUp.py", title="🔓 Sign Up"),
                     ],
                     "Data Based Manipulation":[
-                        st.Page("./pages/CSV_Data.py",title="CSV Data"),
-                        st.Page("./pages/EXCEL_Data.py",title="Excel Data")
+                        st.Page("./pages/CSV_Data.py",title="📊 CSV Data"),
+                        st.Page("./pages/EXCEL_Data.py",title="📈 Excel Data")
                     ],
                     "Text Based Manipulation":[
-                        st.Page("./pages/TextManipulator.py",title="Text Insights"),
+                        st.Page("./pages/TextInsight.py",title="📝 Text Insights"),
+                        st.Page("./pages/RemoveWhiteSpace.py",title="🧹Remove Whitespace"),
+                        st.Page("./pages/SortText.py",title="📶 Sort Text"),
+                        st.Page("./pages/TextToTable.py",title="📅 Text To Table")
                     ]
             }
         
@@ -28,6 +31,7 @@ class WEBSITE:
 
         web_app = st.navigation(sidebar)
         web_app.run()
+        
 
         
 

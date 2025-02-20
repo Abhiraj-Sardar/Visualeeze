@@ -43,3 +43,5 @@ Whether you're a **writer, developer, student, or content creator**, our **Text 
 ---
 
 """)
+
+st.snow()
