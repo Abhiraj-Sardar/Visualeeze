@@ -16,14 +16,14 @@ class WEBSITE:
                     st.Page("./Pages/SignUp.py", title="🔓 Sign Up"),
                     ],
                     "Data Based Manipulation":[
-                        st.Page("./pages/CSV_Data.py",title="📊 CSV Data"),
-                        st.Page("./pages/EXCEL_Data.py",title="📈 Excel Data")
+                        st.Page("./Pages/CSV_Data.py",title="📊 CSV Data"),
+                        st.Page("./Pages/EXCEL_Data.py",title="📈 Excel Data")
                     ],
                     "Text Based Manipulation":[
-                        st.Page("./pages/TextInsight.py",title="📝 Text Insights"),
-                        st.Page("./pages/RemoveWhiteSpace.py",title="🧹Remove Whitespace"),
-                        st.Page("./pages/SortText.py",title="📶 Sort Text"),
-                        st.Page("./pages/TextToTable.py",title="📅 Text To Table")
+                        st.Page("./Pages/TextInsight.py",title="📝 Text Insights"),
+                        st.Page("./Pages/RemoveWhiteSpace.py",title="🧹Remove Whitespace"),
+                        st.Page("./Pages/SortText.py",title="📶 Sort Text"),
+                        st.Page("./Pages/TextToTable.py",title="📅 Text To Table")
                     ]
             }
         
