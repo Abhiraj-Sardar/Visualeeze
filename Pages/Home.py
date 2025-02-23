@@ -44,4 +44,5 @@ Whether you're a **writer, developer, student, or content creator**, our **Text 
 
 """)
 
+st.image("./static/logo.png")
 st.snow()

@@ -4,6 +4,7 @@ from Components import component
 class WEBSITE: 
 
     def __init__(self):
+
         heading=st.container(border=True)
         heading.title("Visualezee",anchor="home")
         heading.html("<p>Developed by: <a href='https://github.com/Abhiraj-Sardar'>Abhiraj Sardar</a></p>")
@@ -26,9 +27,11 @@ class WEBSITE:
                     ]
             }
         
+        
         navlist=Data.nav_data
         component.navigation(navlist)
 
+        st.logo("./static/logo.png",size="large")
         web_app = st.navigation(sidebar)
         web_app.run()
         
