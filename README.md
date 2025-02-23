@@ -44,3 +44,6 @@ activate the virtual environment (For Windows User) by
 - manipulates user text
 - converts user's text into tabular format
 
+## Software at a Glance
+![image](https://github.com/user-attachments/assets/4e58ef55-683b-4764-9e97-03e846a9e901)
+
