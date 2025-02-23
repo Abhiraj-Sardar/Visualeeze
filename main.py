@@ -11,9 +11,9 @@ class WEBSITE:
         sidebar = {
                    "Visualezee": [
                     st.Page("main.py", title="Explore"),
-                    st.Page("./pages/Home.py", title="🏠 Home"),
-                    st.Page("./pages/Login.py", title="🗝️ Login"),
-                    st.Page("./pages/SignUp.py", title="🔓 Sign Up"),
+                    st.Page("./Pages/Home.py", title="🏠 Home"),
+                    st.Page("./Pages/Login.py", title="🗝️ Login"),
+                    st.Page("./Pages/SignUp.py", title="🔓 Sign Up"),
                     ],
                     "Data Based Manipulation":[
                         st.Page("./pages/CSV_Data.py",title="📊 CSV Data"),
