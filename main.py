@@ -10,7 +10,7 @@ class WEBSITE:
         heading.html("<p>Developed by: <a href='https://github.com/Abhiraj-Sardar'>Abhiraj Sardar</a></p>")
         sidebar = {
                    "Visualezee": [
-                    st.Page("main.py", title="Explore"),
+                    # st.Page("main.py", title="Explore"),
                     st.Page("./Pages/Home.py", title="🏠 Home"),
                     st.Page("./Pages/Login.py", title="🗝️ Login"),
                     st.Page("./Pages/SignUp.py", title="🔓 Sign Up"),
